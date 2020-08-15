@@ -7,7 +7,7 @@
 <body>
 	<form action="${ pageContext.request.contextPath }/welcome"
 		method="post">
-		IDを入力してください。
+		IDを入力してください？
 		<input type="text" name="userName" size="30" /><br>
 		<input type="submit" value="送信" />
 		パスワードを入力してください。
