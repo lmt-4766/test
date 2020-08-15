@@ -7,8 +7,11 @@
 <body>
 	<form action="${ pageContext.request.contextPath }/welcome"
 		method="post">
-		お名前は？
+		IDを入力してください。
 		<input type="text" name="userName" size="30" /><br>
+		<input type="submit" value="送信" />
+		パスワードを入力してください。
+		<input type="password" name="userName" size="30" /><br>
 		<input type="submit" value="送信" />
 	</form>
 </body>
